@@ -1,0 +1,12 @@
+*.duckdb
+*.duckdb.wal
+target/
+logs/
+dbt_packages/
+
+# Local DuckDB artifacts inside seeds or elsewhere
+seeds/*.duckdb
+seeds/*.duckdb.wal
+
+# Data directory
+data/

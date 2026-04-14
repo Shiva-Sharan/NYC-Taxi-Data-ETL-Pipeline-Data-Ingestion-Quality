@@ -1,0 +1,9 @@
+version : 2 
+sources:
+  - name: nytaxi
+    database: taxi_rides_ny # Or name of your GCP project
+    schema: prod # Or name of your BigQuery dataset
+    
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
